@@ -58,6 +58,10 @@ public class TanksPlayerController : MonoBehaviour
         {
             // Disparo: instanciamos unha bala na posición e rotación de `gun`.
             Instantiate(bulletObj, gun.position, gun.rotation);
+
+            /* //Si la bala es ShellSimpleRigidbody
+            GameObject shell = Instantiate(bulletObj, gun.position, gun.rotation);
+            shell.GetComponent<Rigidbody>().linearVelocity = speed * gun.forward;*/
         }
     }
 }

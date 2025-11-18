@@ -1,22 +1,3 @@
-# Descrición
-
-Escena con 2 tanques que se disparan entre si y una torre fija que gira, alza y baja el cañon para disparar al jugador.
-
-# Título principal
-
-**Escena de taques con torre fija**
-
-## Subtítulo
-
-Lista de cambios realizados: Texto normal con **negriña** e *cursiva*.
-
-- Modificado el script *TanksPlayerController* para añadir unas lineas que permitan que el tanque del jugador use las balas *ShellSimpleRigidbody*
-- Añadido un script *TanksTowerController* que aprovecha el código de *TanksNPCController* para crear una torreta fija que mueve únicamente el cañon para apuntar al jugador.
-
-[Ligazón](https://exemplo.com)
-
-
-```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -109,6 +90,3 @@ public class TanksTowerController : MonoBehaviour {
         }
     }
 }
-
-
-```
