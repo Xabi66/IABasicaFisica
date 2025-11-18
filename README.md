@@ -13,7 +13,7 @@ Lista de cambios realizados: Texto normal con **negriña** e *cursiva*.
 - Modificado el script *TanksPlayerController* para añadir unas lineas que permitan que el tanque del jugador use las balas *ShellSimpleRigidbody*
 - Añadido un script *TanksTowerController* que aprovecha el código de *TanksNPCController* para crear una torreta fija que mueve únicamente el cañon para apuntar al jugador.
 
-[Ligazón](https://exemplo.com)
+[Ligazón](https://github.com/Xabi66/IABasicaFisica/blob/master/Assets/Scripts/TanksTowerController.cs)
 
 
 ```csharp
